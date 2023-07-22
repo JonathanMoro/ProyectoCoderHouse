@@ -1,0 +1,107 @@
+/* Global */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Variables */
+$sm-phone: 320px;
+$phone: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$large-desktop: 1200px;
+$xl-desktop: 1400px;
+/* Menu */
+
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#f-footer {
+    font-size: 12px !important;
+}
+
+nav {
+    div {
+        a {
+            img {
+                border-radius: 50%;
+            }
+
+            img:hover {
+                transform: rotate(360deg);
+                transition: 1.5s;
+            }
+        }
+    }
+}
+
+nav {
+    ol {
+        text-decoration: none;
+    }
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.producto {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: start;
+
+    .img-container {
+        border-style: solid;
+        border-width: 1px;
+    }
+}
+
+.productos-container {
+    width: 100%;
+    margin-top: 50px;
+
+    .form-check {
+        background-color: #2196F3;
+    }
+}
+
+section {
+    button.btn {
+        @media (min-width: $sm-phone){
+            margin-left: 60px;
+            @media (min-width: $phone){
+            margin-left: 60px;
+            @media (min-width: $desktop) {
+                margin-left: 90px;
+                padding-left: 220px;
+            @media (min-width: $xl-desktop) {
+                    margin-left: 170px;
+                }
+            }
+        }
+    }
+}
+}
