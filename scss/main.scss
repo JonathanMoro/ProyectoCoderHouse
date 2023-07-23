@@ -72,10 +72,55 @@ nav {
     flex-wrap: wrap;
     align-content: center;
     align-items: start;
+    &:hover{
+        border-style: solid;
+        border-width: 1px;
+        background-image:linear-gradient(to bottom, rgba(53, 61, 59, 0.524), rgb(144, 156, 206));
+        transform: scale(1.15,1.15);
+    }
 
     .img-container {
         border-style: solid;
         border-width: 1px;
+    }
+    .producto-info{
+        .link{
+            color: #393c3e;
+            line-height: 22px;
+            font-family: Poppins,sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            outline: 0;
+            font-weight: 500;
+        }
+        .price{
+            .sales{
+                .valor{
+                    font-weight: 700;
+                    color: #222;
+                    font-size: 22px;
+                }
+            }
+        }
+        .valor-cuotas span{
+            font-weight: 400;
+            color: #e26e6c;
+            font-size: 14px;
+        }
+        .envio-gratis{
+            .cartel-envio-gratis{
+                .promocion-envio{
+                    text-transform: uppercase;
+                    background-color: #e26e6c;
+                    border-radius: 3px;
+                    letter-spacing: .84px;
+                    margin-bottom: 5px;
+                    color: #fff;
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
 
@@ -84,24 +129,6 @@ nav {
     margin-top: 50px;
 
     .form-check {
-        background-color: #2196F3;
+        background-color: #222;
     }
-}
-
-section {
-    button.btn {
-        @media (min-width: $sm-phone){
-            margin-left: 60px;
-            @media (min-width: $phone){
-            margin-left: 60px;
-            @media (min-width: $desktop) {
-                margin-left: 90px;
-                padding-left: 220px;
-            @media (min-width: $xl-desktop) {
-                    margin-left: 170px;
-                }
-            }
-        }
-    }
-}
 }

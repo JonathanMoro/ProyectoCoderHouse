@@ -57,115 +57,465 @@
             </div>
         </div>
     </nav>
-
-
-    <nav class="bg-light" aria-label="breadcrumb">
-        <ol class="breadcrumb ps-2">
-            <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Hombre</li>
-        </ol>
-    </nav>
-
-
-
-    <section class="container-fluid bg-light">
-        <div class="container text-center">
-            <div class="row pb-1">
-                <div class="dropdown col-3 text-start">
-                    <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Filtro
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <section class="sidebar-filtro bg-body-secondary text-start">
+        <nav class="bg-light" aria-label="breadcrumb">
+            <ol class="breadcrumb ps-2 m-0">
+                <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Calzado</li>
+            </ol>
+        </nav>
+        <button class="btn btn-dark w-25 ms-5" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Filtrar
+        </button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Filtrar y ordernar</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="card" style="width: 18rem;">
+                    <div class="text-start btn bg-body-secondary card-header">
+                        Tipo de producto
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Bermudas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Boxers</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Camisas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Buzos</li>
                     </ul>
-                </div>
-                <div class="col-9">
-                    Resultados 36
-                </div>
-            </div>
-        </div>
-
-        <div class="row text-end">
-            <div class="col-md-3">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Default checkbox
-                    </label>
-                </div>
-                <div class="form-check d">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Checked checkbox
-                    </label>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <a href="#"><img class="border border-dark" src="../img/item1.webp" alt="" width="auto"
-                        height="278px"></a>
-                <div>
-                    <h6>Nike SB
-                        Buzo con Capucha de Moda Unisex</h6>
-                    <span>$40000</span>
-                    <p class="text-success" id="f-footer">Envío gratis-Sale</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <a href="#"><img class="border border-dark" src="../img/item2.webp" alt="" width="auto"
-                        height="278px"></a>
-                <div>
-                    <h6>Zapatillas Leather Make It Yours</h6>
-                    <span>$40000</span>
-                    <p class="text-success" id="f-footer">Envío gratis-Sale</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <a href="#"><img class="border border-dark" src="../img/item3.webp" alt="" width="auto"
-                        height="278px"></a>
-                <div>
-                    <h6>Remera Classics Cropped</h6>
-                    <span>$9000</span>
-                    <p class="text-success" id="f-footer">-Sale</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <a href="#"><img class="border border-dark" src="../img/item4.webp" alt="" width="auto"
-                        height="278px"></a>
-                <div>
-                    <h6>Buzo Kung Fu Panda</h6>
-                    <span>$40000</span>
-                    <p class="text-success" id="f-footer">Envío gratis-Sale</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <a href="#"><img class="border border-dark" src="../img/item4.webp" alt="" width="auto"
-                        height="278px"></a>
-                <div>
-                    <h6>Buzo Kung Fu Panda</h6>
-                    <span>$40000</span>
-                    <p class="text-success" id="f-footer">Envío gratis-Sale</p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <a href="#"><img class="border border-dark" src="../img/item4.webp" alt="" width="auto"
-                        height="278px"></a>
-                <div>
-                    <h6>Buzo Kung Fu Panda</h6>
-                    <span>$40000</span>
-                    <p class="text-success" id="f-footer">Envío gratis-Sale</p>
+                    <div class="text-start btn bg-body-secondary card-header">
+                        Género
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Hombre</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Mujer</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Unisex</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> NA</li>
+                    </ul>
+                    <div class="text-start btn bg-body-secondary card-header">
+                        Marca
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Adidas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Converse</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Fila</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Puma</li>
+                    </ul>
+                    <div class="text-start btn bg-body-secondary card-header">
+                        Precio
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> $15000 o más</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> $15000 o menos</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
-
+    <section class="productos-container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/item1.webp" alt="" title="Buzo Nike SB"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Nike SB Buzo con Capucha de Moda Unisex</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $40.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $13.333</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
     <footer>
         <div class="row p-5 bg-dark text-white">
             <div class="col-xs-12 col-md-6 col-lg-3">

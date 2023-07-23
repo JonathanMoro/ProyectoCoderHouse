@@ -57,7 +57,465 @@
             </div>
         </div>
     </nav>
-
+    <section class="sidebar-filtro bg-body-secondary text-start">
+        <nav class="bg-light" aria-label="breadcrumb">
+            <ol class="breadcrumb ps-2 m-0">
+                <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Calzado</li>
+            </ol>
+        </nav>
+        <button class="btn btn-dark w-25 ms-5" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Filtrar
+        </button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Filtrar y ordernar</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="card" style="width: 18rem;">
+                    <div class="text-start btn bg-body-secondary card-header">
+                        Tipo de producto
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Bermudas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Boxers</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Camisas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Buzos</li>
+                    </ul>
+                    <div class="text-start btn bg-body-secondary card-header">
+                        Género
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Hombre</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Mujer</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Unisex</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> NA</li>
+                    </ul>
+                    <div class="text-start btn bg-body-secondary card-header">
+                        Marca
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Adidas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Converse</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Fila</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Puma</li>
+                    </ul>
+                    <div class="text-start btn bg-body-secondary card-header">
+                        Precio
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> $15000 o más</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> $15000 o menos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="productos-container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="producto" id="">
+                    <div class="img-container">
+                        <a href="">
+                            <div class="producto-img-container">
+                                <img class="producto-img" src="../img/pantalonadidas.webp" alt="Pantalón-adidas-Adicolor" title="Pantalón adidas Adicolor"
+                                    height="275px" width="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="producto-info">
+                        <div>
+                            <a href="" class="link">Pantalón adidas Adicolor</a>
+                        </div>
+                        <div class="price">
+                            <span class="sales">
+                                <span class="valor"> $30.000</span>
+                            </span>
+                        </div>
+                        <div class="valor-cuotas">
+                            <div>
+                                <span>3 cuotas de $10.000</span>
+                            </div>
+                        </div>
+                        <div class="envio-gratis">
+                            <div class="cartel-envio-gratis">
+                                <span class="promocion-envio">Envío gratis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
     <footer>
         <div class="row p-5 bg-dark text-white">
             <div class="col-xs-12 col-md-6 col-lg-3">

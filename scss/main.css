@@ -56,9 +56,44 @@ nav ol {
   align-content: center;
   align-items: start;
 }
+.producto:hover {
+  border-style: solid;
+  border-width: 1px;
+  background-image: linear-gradient(to bottom, rgba(53, 61, 59, 0.524), rgb(144, 156, 206));
+  transform: scale(1.15, 1.15);
+}
 .producto .img-container {
   border-style: solid;
   border-width: 1px;
+}
+.producto .producto-info .link {
+  color: #393c3e;
+  line-height: 22px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  outline: 0;
+  font-weight: 500;
+}
+.producto .producto-info .price .sales .valor {
+  font-weight: 700;
+  color: #222;
+  font-size: 22px;
+}
+.producto .producto-info .valor-cuotas span {
+  font-weight: 400;
+  color: #e26e6c;
+  font-size: 14px;
+}
+.producto .producto-info .envio-gratis .cartel-envio-gratis .promocion-envio {
+  text-transform: uppercase;
+  background-color: #e26e6c;
+  border-radius: 3px;
+  letter-spacing: 0.84px;
+  margin-bottom: 5px;
+  color: #fff;
+  display: block;
+  text-align: center;
 }
 
 .productos-container {
@@ -66,27 +101,5 @@ nav ol {
   margin-top: 50px;
 }
 .productos-container .form-check {
-  background-color: #2196F3;
-}
-
-@media (min-width: 320px) {
-  section button.btn {
-    margin-left: 60px;
-  }
-}
-@media (min-width: 320px) and (min-width: 576px) {
-  section button.btn {
-    margin-left: 60px;
-  }
-}
-@media (min-width: 320px) and (min-width: 576px) and (min-width: 992px) {
-  section button.btn {
-    margin-left: 90px;
-    padding-left: 220px;
-  }
-}
-@media (min-width: 320px) and (min-width: 576px) and (min-width: 992px) and (min-width: 1400px) {
-  section button.btn {
-    margin-left: 170px;
-  }
+  background-color: #222;
 }/*# sourceMappingURL=main.css.map */

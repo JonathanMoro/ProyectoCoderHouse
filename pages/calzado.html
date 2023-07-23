@@ -58,9 +58,15 @@
         </div>
     </nav>
     <section class="sidebar-filtro bg-body-secondary text-start">
-        <button class="btn btn-primary center" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Filtrar</button>
-
+        <nav class="bg-light" aria-label="breadcrumb">
+            <ol class="breadcrumb ps-2 m-0">
+                <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Calzado</li>
+            </ol>
+        </nav>
+        <button class="btn btn-dark w-25 ms-5" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Filtrar
+        </button>
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
             aria-labelledby="offcanvasWithBothOptionsLabel">
             <div class="offcanvas-header">
@@ -73,46 +79,49 @@
                         Tipo de producto
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Bermudas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Boxers</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Camisas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Buzos</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Bermudas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Boxers</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Camisas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Buzos</li>
                     </ul>
                     <div class="text-start btn bg-body-secondary card-header">
                         Género
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Bermudas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Boxers</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Camisas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Buzos</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Hombre</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Mujer</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Unisex</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> NA</li>
                     </ul>
                     <div class="text-start btn bg-body-secondary card-header">
                         Marca
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Bermudas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Boxers</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Camisas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Buzos</li>
-                    </ul>
-                    <div class="text-start btn bg-body-secondary card-header">
-                        Talle
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Bermudas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Boxers</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Camisas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Buzos</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Adidas</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Converse</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Fila</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> Puma</li>
                     </ul>
                     <div class="text-start btn bg-body-secondary card-header">
                         Precio
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Bermudas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Boxers</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Camisas</li>
-                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> Buzos</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> $15000 o más</li>
+                        <li class="list-group-item"><input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault"> $15000 o menos</li>
                     </ul>
                 </div>
             </div>
@@ -125,14 +134,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="Zapatillas Nikezapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -157,14 +166,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -189,14 +198,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -221,14 +230,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -253,14 +262,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -285,14 +294,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -317,14 +326,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -349,14 +358,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -381,14 +390,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -413,14 +422,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -445,14 +454,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
@@ -477,14 +486,14 @@
                     <div class="img-container">
                         <a href="">
                             <div class="producto-img-container">
-                                <img class="producto-img" src="../img/item1.webp" alt="" title="Zapatillas Nike"
+                                <img class="producto-img" src="../img/ZapatillaNike.webp" alt="zapatillas-nike" title="Zapatillas Nike"
                                     height="275px" width="auto">
                             </div>
                         </a>
                     </div>
                     <div class="producto-info">
                         <div>
-                            <a href="" class="link"></a>
+                            <a href="" class="link">Zapatillas Urbanas Jordan 1 Mid Se Craft Hombre</a>
                         </div>
                         <div class="price">
                             <span class="sales">
