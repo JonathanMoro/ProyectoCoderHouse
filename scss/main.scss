@@ -18,6 +18,11 @@ $xl-desktop: 1400px;
     font-size: 18px;
     font-weight: bold;
     color: #3f3f3f;
+    &.nav-link:hover{
+        color: white;
+        border-style: solid;
+        border-bottom: #222;
+    }
 }
 
 #menu form>button {
@@ -116,8 +121,8 @@ nav {
                     letter-spacing: .84px;
                     margin-bottom: 5px;
                     color: #fff;
-                    display: block;
                     text-align: center;
+                    display: block;
                 }
             }
         }

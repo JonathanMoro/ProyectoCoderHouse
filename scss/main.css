@@ -11,6 +11,11 @@ body {
   font-weight: bold;
   color: #3f3f3f;
 }
+#menu li > a.nav-link:hover {
+  color: white;
+  border-style: solid;
+  border-bottom: #222;
+}
 
 #menu form > button {
   font-size: 18px;
@@ -92,8 +97,8 @@ nav ol {
   letter-spacing: 0.84px;
   margin-bottom: 5px;
   color: #fff;
-  display: block;
   text-align: center;
+  display: block;
 }
 
 .productos-container {
